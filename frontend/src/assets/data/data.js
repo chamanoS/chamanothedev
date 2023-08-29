@@ -11,16 +11,21 @@ export const nav = [
   },
   {
     id: 3,
-    text: "pages",
-    url: "/pages",
+    text: "projects",
+    url: "/projects",
   },
   {
     id: 4,
-    text: "blog",
-    url: "/blog",
+    text: "write",
+    url: "/write",
   },
   {
     id: 5,
+    text: "market",
+    url: "/market",
+  },
+  {
+    id: 6,
     text: "contact",
     url: "/contact",
   },
