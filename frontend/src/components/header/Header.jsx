@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/images/logo.svg"
+import logo from "../../assets/images/ChamanoTheDev.png"
 import "./header.css";
 import { Link } from "react-router-dom";
 import { nav } from "../../assets/data/data";
@@ -15,19 +15,19 @@ export const Header = () => {
         <header className='header'>
             <div className='scontainer flex'>
                 <div className='logo'>
-                    <img src={logo} alt="logo" width='100px'/>
+                    <img src={logo} alt="logo" width='160px'/>
                 </div>
                 <nav>
                     <ul>
                         {nav.map((link)=>(
                             <li key={link.id}>
-                                <Link to={link.url}>{link.text}</Link>
+                                <Link className="link" to={link.url}>{link.text}</Link>
                             </li>
                         ))}
                     </ul>
                 </nav>
                 <div className='account flexCenter'>
-                    User
+                    My Account
                 </div>
             </div>
         </header>
