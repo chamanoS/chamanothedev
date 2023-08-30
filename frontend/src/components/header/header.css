@@ -13,6 +13,11 @@ header {
   .account {
     font-size: 18px;
   }
+  .flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   /* nav */
   nav ul {
     display: flex;

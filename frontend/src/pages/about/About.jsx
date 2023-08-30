@@ -1,8 +1,9 @@
 import React from 'react'
+import './about.css'
 
 export const About= () => {
   return (
-    <div>About</div>
+    <div className='center'>About</div>
   )
 }
 
