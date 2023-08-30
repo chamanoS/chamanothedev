@@ -1,5 +1,5 @@
 import React from "react"
-// import { Card } from "../../components/blog/Card"
+import { Blogs } from "../../components/blog/Blogs"
 import { Category } from "../../components/category/Category"
 
 export const Home = () => {
@@ -7,6 +7,7 @@ export const Home = () => {
   return (
     <>
       <Category />
+      <Blogs/>
     </>
   )
 }
