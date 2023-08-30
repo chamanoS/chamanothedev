@@ -32,7 +32,7 @@
   .category .overlay {
     position: absolute;
     top: 80px;
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
     width: 100%;
     z-index: 2;
@@ -45,7 +45,8 @@
   .category .overlay p {
     color: #fff;
     font-weight: 300;
-    padding: 15px;
+    margin-top: -10px;
+    /* padding: 15px; */
   }
   /*---------------control-btn-------------*/
   .control-btn button {

@@ -1,3 +1,13 @@
+import ca1  from '../category/ca1.png'
+import ca2 from '../category/ca2.png'
+import ca3  from '../category/ca3.png'
+import ca4 from '../category/ca4.png'
+import ca5  from '../category/ca5.png'
+import ca6 from '../category/ca6.png'
+import ca7  from '../category/ca7.png'
+import ca8 from '../category/ca8.png'
+
+
 export const nav = [
   {
     id: 1,
@@ -35,49 +45,49 @@ export const category = [
     id: 1,
     category: "Life",
     title: "Stay Calm And Surf",
-    cover: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.canto.com%2Fblog%2Finsert-image-html%2F&psig=AOvVaw2qwI6rrk57aTRXJcMRkTJz&ust=1693474088710000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKC7tN6IhIEDFQAAAAAdAAAAABAI",
+    cover: ca1
   },
   {
     id: 2,
     category: "Fashion",
     title: "Becoming a Dragonfly",
-    cover: "./category/ca2.png",
+    cover: ca2,
   },
   {
     id: 3,
     category: "Travel",
     title: "There's always light at the end of the tunnel",
-    cover: "./category/ca3.png",
+    cover: ca3,
   },
   {
     id: 4,
     category: "Sport",
     title: "Stay Calm And Surf",
-    cover: "./category/ca4.png",
+    cover: ca4,
   },
   {
     id: 5,
     category: "Fun",
     title: "There's always light at the end of the tunnel",
-    cover: "./category/ca5.png",
+    cover: ca5,
   },
   {
     id: 6,
     category: "Health",
     title: "Becoming a Dragonfly",
-    cover: "./category/ca6.png",
+    cover: ca6,
   },
   {
     id: 7,
     category: "Business",
     title: "Stay Calm And Surf",
-    cover: "./category/ca7.png",
+    cover: ca7,
   },
   {
     id: 8,
     category: "Technology",
     title: "There's always light at the end of the tunnel",
-    cover: "./category/ca8.png",
+    cover: ca8,
   },
 ]
 export const blog = [

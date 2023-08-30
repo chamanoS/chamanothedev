@@ -57,7 +57,7 @@ export const Category = () => {
             {category.map((item) => (
               <div className='boxs' key={item.id}>
                 <div className='box' >
-                  <img src={item.cover} alt='cover' />
+                  <img src={item.cover} alt='' />
                   <div className='overlay'>
                     <Link className='link'>
                       <h4>{item.category}</h4>
