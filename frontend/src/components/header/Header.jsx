@@ -27,7 +27,7 @@ export const Header = () => {
                     </ul>
                 </nav>
                 <div className='account flexCenter'>
-                    My Account
+                <Link className="link" to="/">My Account</Link>
                 </div>
             </div>
         </header>
