@@ -1,6 +1,6 @@
 header {
     background: #fff;
-    padding: 8px 35px;
+  
     box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
     position: relative;
     z-index: 44;
@@ -9,6 +9,7 @@ header {
     display: flex;
     justify-content:space-between;
     align-items: center;
+    padding: 8px 35px;
   }
   .account {
     font-size: 18px;
