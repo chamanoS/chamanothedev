@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiOutlineSearch } from 'react-icons/ai';
 import logo from "../../assets/images/dev.png";
+import { Link } from "react-router-dom";
 import './search.css';
 
 export const Search = () => {
@@ -19,7 +20,7 @@ export const Search = () => {
       </div>
 
       <div className="actions">
-        <button id="createPostButton">Create Post</button>
+        <button id="createPostButton"><Link className="link" to="/write">Create Post</Link></button>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer className='boxItem'>
       <div className='container flex'>
-        <p> Design & Developed By ChamanoTheDev | @2023 All Rights Reserved </p>
+        <p> Designed & Developed By <span className="span">Chamano</span>TheDev | @2023 All Rights Reserved! </p>
         <div className='social'>
           <AiFillGithub className='icon' />
           <AiFillTwitterCircle className='icon' />
