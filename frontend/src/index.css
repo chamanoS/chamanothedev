@@ -4,3 +4,26 @@
   margin-left: 600px;
   padding: 50px 2px;
 }
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+footer {
+  margin-top: 50px;
+  padding: 10px;
+}
+footer .icon {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boxItem {
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 5px;
+  background: #fff;
+}

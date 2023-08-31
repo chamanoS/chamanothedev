@@ -6,6 +6,7 @@ import { Projects } from './pages/projects/Projects'
 import { Market } from './pages/market/Market'
 import { Write }  from './pages/write/Write'
 import { Contact } from './pages/contact/Contact'
+import { Footer } from './components/footer/Footer';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
     </Router>
+    <Footer/>
     </>
   );
 }
