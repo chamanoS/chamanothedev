@@ -1,6 +1,4 @@
-
-  
-  .headers {
+.headers {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,7 +35,7 @@
   #searchInput {
     border: none;
     outline: none;
-    width: 250px;
+    width: 350px;
     padding: 5px;
     font-size: 16px;
   }
@@ -62,13 +60,6 @@
     transition: background-color 0.3s, color 0.3s;
   }
   
-  .notifications img,
-  .user-image img {
-    width: 30px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-
   .actions button#createPostButton:hover {
     background-color:  rgb(253, 246, 126); 
     color: rgb(58, 57, 57); 
@@ -76,10 +67,5 @@
   .search-icon {
     width: 30px;
     height: 30px;
-  }
-  
-  .notification-icon {
-    width: 20px;
-    height: 20px;
   }
   
