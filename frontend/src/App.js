@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header } from "./components/header/Header"
+import { Regsiter } from './pages/loginRegister/Register';
 import { Home } from "./pages/home/Home"
 import { About } from './pages/about/About'
 import { Projects } from './pages/projects/Projects'
@@ -17,6 +18,7 @@ function App() {
       <Header/>
       <Routes>
         <Route exact path='/' element={<Home/>}/>
+        <Route path='/register' element={<Regsiter/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/projects' element={<Projects/>}/>
         <Route path='/market' element={<Market/>}/>
