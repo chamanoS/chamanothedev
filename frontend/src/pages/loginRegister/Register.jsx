@@ -17,7 +17,7 @@ export const Regsiter = () => {
             </div>
           </div>
 
-          <form >
+          <form className="exform">
             <span>Username *</span>
             <input type='text' required  />
             <span>Email address *</span>
@@ -27,7 +27,7 @@ export const Regsiter = () => {
             <button type='submit' className='button'>
               Register
             </button>
-            <Link to='/login' className='link'>
+            <Link to='/login' className='linkx'>
               Login
             </Link>
           </form>

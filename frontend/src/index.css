@@ -76,7 +76,7 @@ form {
   flex-direction: column;
   width: 50%;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 45px;
   padding: 40px;
 }
 form span {
@@ -94,7 +94,7 @@ form input {
   padding: 0 20px;
   transition: border-color 0.2s ease;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .button {
@@ -108,4 +108,7 @@ form input {
   height: 48px;
   line-height: 1;
   padding: 15px 28px;
+}
+.exform{
+  padding-right: 80px!important;
 }
