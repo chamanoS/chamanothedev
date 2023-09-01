@@ -48,6 +48,7 @@ export const nav = [
     text: "contact",
     url: "/contact",
   },
+  
 ]
 export const category = [
   {

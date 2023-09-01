@@ -1,9 +1,15 @@
 import React from 'react'
 import './about.css'
 
-export const About= () => {
+export const About = () => {
   return (
-    <div className='center'>About</div>
+    <>
+    <section>
+      <div className='about-me'>
+       <h1>About Me</h1>
+        </div>
+    </section>
+    </>
   )
 }
 
