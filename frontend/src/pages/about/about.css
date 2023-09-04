@@ -1,5 +1,5 @@
 .the-body{
-    margin: 20px 50px;
+    margin: 20px 80px;
 }
 .about-me{
     padding: 30px;
@@ -9,7 +9,7 @@
 }
 .about-me h1{
     display: inline-block;
-    border-bottom: 4px solid red;
+    border-bottom: 3px solid rgb(76, 163, 235);
 }
 
 .hero-section{
@@ -25,4 +25,34 @@
 }
 .about-content{
     margin-right: 50px;
+}
+.titles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titles hr{
+    background-color:rgb(71, 158, 230);
+    height: 2px;
+    width: 60%;
+}
+.lists li{
+    padding: 10px;
+}
+/* Style the circles */
+.circle {
+    width: 15px;
+    align-items: center;
+    height: 15px;
+    background-color: rgb(189, 189, 212);
+    border-radius: 50%;
+    margin: 4px auto; 
+}
+
+/* Style the vertical line */
+.vertical-line {
+    width: 2px;
+    height: 40px; 
+    background-color: rgb(77, 128, 238);
+    margin: 0 auto; 
 }
