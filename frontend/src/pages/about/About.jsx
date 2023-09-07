@@ -81,8 +81,8 @@ export const About = () => {
             </ul>
           </div>
 
-          <div>
-            <div>
+          <div className='banner'>
+            <div className='connect'>
               <h1>Lets start a project together</h1>
               <p>Have a project in mind? </p>
               <p>send me and email and lets take if from there:) </p>
