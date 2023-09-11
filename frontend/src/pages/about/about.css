@@ -7,3 +7,14 @@
     font-weight: 900;
     font-size: 20px;
 }
+.lines{
+    border-top: 4px solid black;
+    width: 115.9%;
+    margin-left: -88px;
+}
+.portfolio{
+    font-size: 65px;
+    font-weight: 900;
+   text-align: center;
+   padding: 100px 0;
+}
