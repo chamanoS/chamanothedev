@@ -8,13 +8,11 @@ export const About = () => {
         <div className='bold-lines'>
           <div className='lines upper'></div>
           <div className='portfolio'>
-          <div class="vertical-line"></div>
-            <h4 className='top-title'>SOFTWARE DEVELOPER</h4>
+            <h4 className=' title top-title'>SOFTWARE DEVELOPER</h4>
             <div className='square shape-t'></div>
-            <h1> PORTFOLIO </h1>
+            <h1> P<span className='color'>O</span>RTF<span className='color'>O</span>LI<span className='color'>O</span></h1>
             <div className='square shape-b'></div>
-            <h4 className='bottom-title'>Chamano Sidney</h4>
-            <div class="vertical-line"></div>
+            <h4 className='title bottom-title'>Chamano Sidney</h4>
           </div>
           <div className='lines lower'></div>
         </div>
@@ -22,9 +20,7 @@ export const About = () => {
           <h1>About Me</h1>
         </div>
        
-
-
-      </section>
+      </section>PORTFOLIO
     </>
   )
 }
