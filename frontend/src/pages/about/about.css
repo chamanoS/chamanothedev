@@ -57,3 +57,21 @@
 .color{
     color: red;
 }
+.space{
+    margin-bottom: 100px;
+}
+.hero-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    padding: 10px;
+    background-color: greenyellow;
+}
+.text{
+    width: 60%;
+}
+.low{
+    width: 215%;
+}

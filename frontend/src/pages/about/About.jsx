@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css'
+import  Image  from "../../assets/blogs/b1.jpg"
 
 export const About = () => {
   return (
@@ -16,10 +17,34 @@ export const About = () => {
           </div>
           <div className='lines lower'></div>
         </div>
-        <div className='about-me'>
+        <section className='hero-sec'>
+          <div className='main'>
+          <div className='about-me'>
           <h1>ABOUT ME</h1>
           <div className='lines lower'></div>
         </div>
+        <div className='text'>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates facilis ad velit alias officia saepe,
+              deleniti quaerat consequuntur, necessitatibus magni
+              dolorem nesciunt corrupti quas ipsam atque, tempore
+              aperiam! Numquam, accusamus!</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates facilis ad velit alias officia saepe,
+              deleniti quaerat consequuntur, necessitatibus magni
+              dolorem nesciunt corrupti quas ipsam atque, tempore
+              aperiam! Numquam, accusamus!</p>
+        </div>
+        <div className='lines upper space'></div>
+        <div className='lines lower low'></div>
+          </div>
+        <div className='image'>
+          <img src={Image} alt=''/>
+        </div>
+        </section>
+        
+
+
        
       </section>
     </>
