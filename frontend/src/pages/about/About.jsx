@@ -17,10 +17,11 @@ export const About = () => {
           <div className='lines lower'></div>
         </div>
         <div className='about-me'>
-          <h1>About Me</h1>
+          <h1>ABOUT ME</h1>
+          <div className='lines lower'></div>
         </div>
        
-      </section>PORTFOLIO
+      </section>
     </>
   )
 }
