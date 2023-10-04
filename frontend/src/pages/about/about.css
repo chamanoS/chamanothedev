@@ -14,13 +14,13 @@
     margin-left: -88px;
 }
 .portfolio{
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .portfolio h1{
     font-size: 85px;
     font-weight: 900;
    text-align: center;
-   padding: 80px 0;
+   padding: 10px 0;
 }
 .title{
     position: absolute;
@@ -29,11 +29,11 @@
     font-family: serif;
 }
 .top-title{
-    margin-top: 125px;
-    margin-left: 300px;
+    margin-top: 65px;
+    margin-left: 270px;
 }
 .bottom-title{
-    margin-top: -155px;
+    margin-top: -90px;
     margin-left: 630px;
 }
 .square{
@@ -56,22 +56,4 @@
 }
 .color{
     color: red;
-}
-.space{
-    margin-bottom: 100px;
-}
-.hero-sec{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.image{
-    padding: 10px;
-    background-color: greenyellow;
-}
-.text{
-    width: 60%;
-}
-.low{
-    width: 215%;
 }

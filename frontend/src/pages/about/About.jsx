@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import  Image  from "../../assets/blogs/b1.jpg"
 
 export const About = () => {
   return (
@@ -13,39 +12,32 @@ export const About = () => {
             <div className='square shape-t'></div>
             <h1> P<span className='color'>O</span>RTF<span className='color'>O</span>LI<span className='color'>O</span></h1>
             <div className='square shape-b'></div>
-            <h4 className='title bottom-title'>Chamano Sidney</h4>
+            <h4 className='title bottom-title'>CHAMANO SIDNEY</h4>
           </div>
           <div className='lines lower'></div>
         </div>
-        <section className='hero-sec'>
-          <div className='main'>
-          <div className='about-me'>
-          <h1>ABOUT ME</h1>
-          <div className='lines lower'></div>
-        </div>
-        <div className='text'>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates facilis ad velit alias officia saepe,
-              deleniti quaerat consequuntur, necessitatibus magni
-              dolorem nesciunt corrupti quas ipsam atque, tempore
-              aperiam! Numquam, accusamus!</p>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates facilis ad velit alias officia saepe,
-              deleniti quaerat consequuntur, necessitatibus magni
-              dolorem nesciunt corrupti quas ipsam atque, tempore
-              aperiam! Numquam, accusamus!</p>
-        </div>
-        <div className='lines upper space'></div>
-        <div className='lines lower low'></div>
+
+        <div className='about-me'>
+          <div className='about-img'>
+            <img src='' alt='img'/>
+
           </div>
-        <div className='image'>
-          <img src={Image} alt=''/>
+          <div className='about-content'>
+            <h1>Know About Me</h1>
+            <div className='about-intro'>
+              <h3>Hi I'm chamano TheDev</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ea blanditiis expedita voluptatibus impedit dolore eius at 
+                quibusdam cumque, consectetur saepe deserunt natus, 
+                accusamus quis eos nobis itaque? Obcaecati, neque reiciendis?
+              </p>
+            </div>
+            <div className='about-content'>
+
+            </div>
+          </div>
+
         </div>
-        </section>
-        
-
-
-       
       </section>
     </>
   )
