@@ -19,7 +19,7 @@ export const About = () => {
 
         <div className='about-me'>
           <div className='about-img'>
-            <img src='' alt='img'/>
+            <img src='' alt='img' />
 
           </div>
           <div className='about-content'>
@@ -27,16 +27,41 @@ export const About = () => {
             <div className='about-intro'>
               <h3>Hi I'm chamano TheDev</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ea blanditiis expedita voluptatibus impedit dolore eius at 
-                quibusdam cumque, consectetur saepe deserunt natus, 
+                Ea blanditiis expedita voluptatibus impedit dolore eius at
+                quibusdam cumque, consectetur saepe deserunt natus,
                 accusamus quis eos nobis itaque? Obcaecati, neque reiciendis?
               </p>
             </div>
-            <div className='about-content'>
+            <div className='about-contact'>
+
+              <div className='about-socials'>
+                <div className='about-social'>
+                  <span></span>
+                  <p>Intasgram</p>
+                </div>
+                <div className='about-social'>
+                  <span></span>
+                  <p>Intasgram</p>
+                </div>
+              </div>
+
+              <div className='about-socials'>
+                <div className='about-social'>
+                  <span></span>
+                  <p>Intasgram</p>
+                </div>
+                <div className='about-social'>
+                  <span></span>
+                  <p>Intasgram</p>
+                </div>
+              </div>
+              <div className='about-social'>
+                  <span></span>
+                  <p>Intasgram</p>
+              </div>
 
             </div>
           </div>
-
         </div>
       </section>
     </>
