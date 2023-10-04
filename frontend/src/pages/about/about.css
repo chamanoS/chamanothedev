@@ -57,3 +57,46 @@
 .color{
     color: red;
 }
+
+.about-me{
+    display: flex;
+    justify-content: center;
+}
+.about-me >div{
+    padding: 20px;
+    margin: 10px;
+}
+
+.about-img img{
+    height: 400px;
+    object-fit:cover;
+}
+.about-content{
+   
+}
+.header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-right: 20px !important;
+}
+.about-social img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.about-socials{
+    display: flex;
+    width: 45%;
+}
+
+.about-social{
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    padding: 5px !important;
+    flex: 1;
+}
+a{
+    color: black;
+    font-size: 13px;
+}
