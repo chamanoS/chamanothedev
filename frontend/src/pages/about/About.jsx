@@ -6,13 +6,13 @@ import Behance from "../../assets/images/behance.png"
 import Email from "../../assets/images/email.png"
 import Linkedin from "../../assets/images/linkedin.png"
 import Phone from "../../assets/images/phone.png"
+import Create from "../../assets/images/create.png"
 
 export const About = () => {
   return (
     <>
       <section className='the-body'>
-        <div className='bold-lines'>
-          <div className='lines upper'></div>
+       
           <div className='portfolio'>
             <h4 className=' title top-title'>SOFTWARE DEVELOPER</h4>
             <div className='square shape-t'></div>
@@ -21,8 +21,7 @@ export const About = () => {
             <h4 className='title bottom-title'>CHAMANO SIDNEY</h4>
           </div>
           <div className='lines lower'></div>
-        </div>
-
+        
         <div className='about-me'>
           <div className='about-img'>
             <img src={Image} alt='img' />
@@ -75,6 +74,11 @@ export const About = () => {
             </div>
           </div>
         </div>
+        <div className='lines lower'></div>
+        <div className='create'>
+          <img src={Create} alt='' />
+        </div>
+        <div className='lines lower'></div>
       </section>
     </>
   )
