@@ -6,7 +6,9 @@ import Behance from "../../assets/images/behance.png"
 import Email from "../../assets/images/email.png"
 import Linkedin from "../../assets/images/linkedin.png"
 import Phone from "../../assets/images/phone.png"
-import Create from "../../assets/images/create.png"
+//import Create from "../../assets/images/create.png"
+import Education from "../../assets/images/edu.png"
+import Experience from "../../assets/images/exp.png"
 
 export const About = () => {
   return (
@@ -34,11 +36,13 @@ export const About = () => {
 
             <div className='about-intro'>
               <h3>Hi I'm chamano TheDev</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ea blanditiis expedita voluptatibus impedit dolore eius at
-                quibusdam cumque, consectetur saepe deserunt natus,
-                accusamus quis eos nobis itaque? Obcaecati, neque reiciendis?
-              </p>
+              <ul className='lists'>
+                <li>Hi there👋! I'm a self-taught developer with a zest for life.</li>
+                <li>I thrive on adventure, both in the coding world and beyond.</li>
+                <li>When I'm not immersed in lines of code, you'll find me lost in the pages of a good book📚,
+                 exploring new places, and embracing every opportunity to have fun.</li>
+                <li>Let's embark on this digital journey together and make tech a little more exciting!✨</li>
+              </ul>
             </div>
             <div className='about-contact'>
               <div className='about-cont'>
@@ -66,19 +70,84 @@ export const About = () => {
                   <a href='/#'>Linkedin</a>
                 </div>
               </div>
-              {/* <div className='about-socialx'>
+              <div className='about-social'>
                 <img src={Email} alt='' />
-                <a href='/#'>Linkedin</a>
-              </div> */}
+                <a href='/#'>chamano.sr@gmail.com</a>
+              </div>
 
             </div>
           </div>
         </div>
-        <div className='lines lower'></div>
-        <div className='create'>
-          <img src={Create} alt='' />
+
+        <div className='grand-parent'>
+          <div className='parent-exp'>
+            <div className='experience-edu'>
+
+              <div className='experince-Box'>
+                <div className='hd-exp'>
+                  <img src={Education} alt=''/>
+                </div>
+                <div className='experience-content'>
+                  <ul className='lists'>
+                    <li>Hi there👋! I'm a self-taught developer with a zest for life.</li>
+                    <li>I thrive on adventure, both in the coding world and beyond.</li>
+                    <li>When I'm not immersed in lines of code, you'll find me lost in the pages of a good book📚,
+                      exploring new places, and embracing every opportunity to have fun.</li>
+                    <li>Let's embark on this digital journey together and make tech a little more exciting!✨</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className='experince-Box'>
+                <div className='hd-exp'>
+                <img src={Experience} alt=''/>
+                </div>
+                <div className='experience-content'>
+                  <ul className='lists'>
+                    <li>Hi there👋! I'm a self-taught developer with a zest for life.</li>
+                    <li>I thrive on adventure, both in the coding world and beyond.</li>
+                    <li>When I'm not immersed in lines of code, you'll find me lost in the pages of a good book📚,
+                      exploring new places, and embracing every opportunity to have fun.</li>
+                    <li>Let's embark on this digital journey together and make tech a little more exciting!✨</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div className='experience-arch'>
+
+              <div className='experince-Box'>
+                <div className='hd hd-top'>
+                  <h2>Certificate</h2>
+                </div>
+                <div className='experience-content'>
+                  <ul className='lists'>
+                    <li>Hi there👋! I'm a self-taught developer with a zest for life.</li>
+                    <li>I thrive on adventure, both in the coding world and beyond.</li>
+                    <li>When I'm not immersed in lines of code, you'll find me lost in the pages of a good book📚,
+                      exploring new places, and embracing every opportunity to have fun.</li>
+                    <li>Let's embark on this digital journey together and make tech a little more exciting!✨</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className='experince-Box'>
+                <div className='hd hd-bottom'>
+                  <h2>Skills</h2>
+                </div>
+                <div className='experience-content'>
+                  <ul className='lists'>
+                    <li>Hi there👋! I'm a self-taught developer with a zest for life.</li>
+                    <li>I thrive on adventure, both in the coding world and beyond.</li>
+                    <li>When I'm not immersed in lines of code, you'll find me lost in the pages of a good book📚,
+                      exploring new places, and embracing every opportunity to have fun.</li>
+                    <li>Let's embark on this digital journey together and make tech a little more exciting!✨</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className='lines lower'></div>
       </section>
     </>
   )

@@ -1,6 +1,6 @@
 .the-body{
     margin: 20px 80px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 .about-me h1{
     /* padding: 30px; */
@@ -15,13 +15,13 @@
     margin-left: -88px;
 }
 .portfolio{
-    padding: 10px 0;
+    padding: 20px 0;
 }
 .portfolio h1{
     font-size: 85px;
     font-weight: 900;
    text-align: center;
-   padding: 10px 0;
+   padding: 30px 0;
 }
 .title{
     position: absolute;
@@ -47,12 +47,12 @@
 }
 .shape-t{
     position: absolute;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-left: 250px;
 }
 .shape-b{
     position: absolute;
-    margin-top: -170px;
+    margin-top: -210px;
     margin-left: 820px;
 }
 .color{
@@ -72,12 +72,13 @@
     height: 400px;
     object-fit:cover;
 }
-.about-content{
-   
-}
+
 .header h1{
     font-size: 30px;
-    margin-right: 20px !important;
+    margin-left: -10px !important;
+}
+.about-intro h3{
+    font-weight: 700;
 }
 .about-social img{
     width: 25px;
@@ -103,4 +104,30 @@ a{
 .create img{
     max-width: 100%;
     height: auto;
+}
+.lists{
+    width: 90%;
+    margin-left: -40px;
+}
+.grand-parent{
+    background-color: rgb(247, 244, 241);
+
+}
+.parent-exp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+   
+}
+/* .hd-exp h2{
+    background-color: red;
+    padding: 5px;
+    width: 50%;
+  align-items: center;
+} */
+
+.hd-exp img{
+    width: 200px;
+    height: 50px;
 }
