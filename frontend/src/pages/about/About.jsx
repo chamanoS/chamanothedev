@@ -6,7 +6,6 @@ import Behance from "../../assets/images/behance.png"
 import Email from "../../assets/images/email.png"
 import Linkedin from "../../assets/images/linkedin.png"
 import Phone from "../../assets/images/phone.png"
-//import Create from "../../assets/images/create.png"
 import Education from "../../assets/images/edu.png"
 import Experience from "../../assets/images/exp.png"
 
@@ -36,7 +35,7 @@ export const About = () => {
 
             <div className='about-intro'>
               <h3>Hi I'm chamano TheDev</h3>
-              <ul className='lists'>
+              <ul className='conte'>
                 <li>Hi there👋! I'm a self-taught developer with a zest for life.</li>
                 <li>I thrive on adventure, both in the coding world and beyond.</li>
                 <li>When I'm not immersed in lines of code, you'll find me lost in the pages of a good book📚,
@@ -88,7 +87,7 @@ export const About = () => {
                   <img src={Education} alt=''/>
                 </div>
                 <div className='experience-content'>
-                  <ul className='lists'>
+                  <ul className='list'>
                     <li>Hi there👋! I'm a self-taught developer with a zest for life.</li>
                     <li>I thrive on adventure, both in the coding world and beyond.</li>
                     <li>When I'm not immersed in lines of code, you'll find me lost in the pages of a good book📚,
@@ -103,12 +102,15 @@ export const About = () => {
                 <img src={Experience} alt=''/>
                 </div>
                 <div className='experience-content'>
-                  <ul className='lists'>
+                  <ul className='list'>
                     <li>Hi there👋! I'm a self-taught developer with a zest for life.</li>
                     <li>I thrive on adventure, both in the coding world and beyond.</li>
                     <li>When I'm not immersed in lines of code, you'll find me lost in the pages of a good book📚,
                       exploring new places, and embracing every opportunity to have fun.</li>
                     <li>Let's embark on this digital journey together and make tech a little more exciting!✨</li>
+                    <li>I thrive on adventure, both in the coding world and beyond.</li>
+                    <li>When I'm not immersed in lines of code, you'll find me lost in the pages of a good book📚,
+                      exploring new places, and embracing every opportunity to have fun.</li>
                   </ul>
                 </div>
               </div>
@@ -121,12 +123,12 @@ export const About = () => {
                   <h2>Certificate</h2>
                 </div>
                 <div className='experience-content'>
-                  <ul className='lists'>
-                    <li>Hi there👋! I'm a self-taught developer with a zest for life.</li>
-                    <li>I thrive on adventure, both in the coding world and beyond.</li>
-                    <li>When I'm not immersed in lines of code, you'll find me lost in the pages of a good book📚,
-                      exploring new places, and embracing every opportunity to have fun.</li>
-                    <li>Let's embark on this digital journey together and make tech a little more exciting!✨</li>
+                  <ul className='lists certified'>
+                  <li>* Java SE OCP</li>
+                  <li>* Javascript Suit</li>
+                  <li>* Fullstack Developer</li>
+                  <li>* Responsive media query</li>
+                  <li>* Creative Writing</li>
                   </ul>
                 </div>
               </div>
@@ -135,13 +137,29 @@ export const About = () => {
                 <div className='hd hd-bottom'>
                   <h2>Skills</h2>
                 </div>
-                <div className='experience-content'>
+                <div className='experience-content split'>
                   <ul className='lists'>
-                    <li>Hi there👋! I'm a self-taught developer with a zest for life.</li>
-                    <li>I thrive on adventure, both in the coding world and beyond.</li>
-                    <li>When I'm not immersed in lines of code, you'll find me lost in the pages of a good book📚,
-                      exploring new places, and embracing every opportunity to have fun.</li>
-                    <li>Let's embark on this digital journey together and make tech a little more exciting!✨</li>
+                    <li>* Javascript</li>
+                    <li>* Design System</li>
+                    <li>* WireFrames</li>
+                    <li>* UX Research</li>
+                    <li>* HTML5 & CSS3</li>
+                    <li>* Workflow</li>
+                    <li>* MYSQL</li>
+                    <li>* Typescript</li>
+                    <li>* Prototypes</li>
+                    <li>* Angular</li>
+                  </ul>
+                  <ul className='lists'>
+                    <li>* Creativity</li>
+                    <li>* Communication</li>
+                    <li>* Intuition</li>
+                    <li>* Curiosity</li>
+                    <li>* Stress control</li>
+                    <li>* Collaboration</li>
+                    <li>* Time management</li>
+                    <li>* Flexibility</li>
+                    <li>* Empathy</li>
                   </ul>
                 </div>
               </div>
